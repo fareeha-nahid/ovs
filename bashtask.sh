@@ -7,7 +7,6 @@ do
 
 	if [ var_localcommit != var_remotecommit ]
 	then 
-		echo "Files have been changed since last commit"
 		git pull 
 		git push -u origin master
 	
