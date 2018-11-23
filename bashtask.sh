@@ -12,4 +12,5 @@ do
 		git push -u origin master
 	
 	fi
+	sleep 3m
 done
